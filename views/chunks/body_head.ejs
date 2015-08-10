@@ -1,0 +1,48 @@
+<body data-spy="scroll" data-target="#nav-wrap">
+
+
+   <!-- Header
+   ================================================== -->
+   <header class="mobile">
+
+      <div class="row">
+
+         <div class="col full">
+
+            <div class="logo">
+               <a href="#">TQ92</a>
+            </div>
+
+            <nav id="nav-wrap">
+
+               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+               <ul id="nav" class="nav">
+	               <li><a href="/">Home</a></li>
+	               <li><a href="#services">Discover</a></li>
+	               <li><form action="demo_form.asp">
+  Search Q Music:&nbsp&nbsp<input placeholder="Search" style='width:55%' type="search" name="googlesearch">
+</form></li>
+		       
+	 <% if (typeof user != 'undefined') { %>
+	 <li><a href="/mypromotions">My Promotions</a></li>
+	 <% } else { %>
+	               <li><a href="/sign_up">Sign up</a></li>
+		       <li><a href="/sign_in">Sign in</a></li>
+	 <% } %>
+		  <li><a href="/promote">Promote</a></li>
+	       <% if (typeof user != 'undefined') { %>
+		  <li><a href="/logout">Logout</a></li>
+	       <% } %>
+		  <li><a href="#contact">About</a></li>
+               </ul>
+
+            </nav>
+
+         </div>
+
+      </div>
+
+   </header> <!-- Header End -->
+

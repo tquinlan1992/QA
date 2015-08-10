@@ -1,0 +1,49 @@
+		<!-- Intro section end -->
+
+		<section id="#music" class="section">
+
+			<div class="container">
+
+				<div class="row" style="margin-left: auto; margin-right: auto;">
+					<h2 style="text-align:center;">Websocket Music</h2>
+				<h4 style="text-align:center">Select which instruments you want playing. Have other people join the band and do the same...all synchronized.</h4>
+<div style="text-align:center">
+<button class="btn btn-large instr" type="button" id="kick_button">Kick Drum</button>
+<button class="btn btn-large instr" type="button" id="snare_button">Snare Drum</button>
+<button class="btn btn-large instr" type="button" id="hi_hat_button">Closed Hi-Hat</button>
+<button class="btn btn-large instr" type="button" id="open_hat_button">Open Hi-Hat</button>
+<button class="btn btn-large instr" type="button" id="bass_button">Bass</button>
+<button class="btn btn-large instr" type="button" id="first_piano_button">First piano</button>
+<button class="btn btn-large instr" type="button" id="second_piano_button">Second piano</button>
+<button class="btn btn-large instr" type="button" id="horns_button">Horns</button>
+</div>
+
+<div style="text-align:center">
+<h4 style="text-align:center">This is the song that the websocket instruments are trying to play, although just a tiny delay in a musical note and the listener can pick up on it.  If the web server was running locally, those delays would be minimized.</h4>
+<p>Music produced by the founder, Tom Quinlan</p>
+<iframe width="75%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140488322&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</div>
+						<audio hidden id="kick" src="drum_sounds/kick.mp3" controls></audio>
+						<audio hidden id="snare" src="drum_sounds/snare.mp3" controls></audio>
+						<audio hidden id="hi_hat" src="drum_sounds/hi_hat.mp3" controls></audio>
+						<audio hidden id="open_hat" src="drum_sounds/open_hat.mp3" controls></audio>
+						<audio hidden id="bass1" src="drum_sounds/bass1.mp3" controls></audio>
+						<audio hidden id="bass2" src="drum_sounds/bass2.mp3" controls></audio>
+						<audio hidden id="bass3" src="drum_sounds/bass3.mp3" controls></audio>
+						<audio hidden id="bass4" src="drum_sounds/bass4.mp3" controls></audio>
+						<audio hidden id="first_piano" src="drum_sounds/first_piano.mp3" controls></audio>
+						<audio hidden id="second_piano" src="drum_sounds/second_piano.mp3" controls></audio>
+						<audio hidden id="horns1" src="drum_sounds/horns1.mp3" controls></audio>
+						<audio hidden id="horns2" src="drum_sounds/horns2.mp3" controls></audio>
+						<script src="js/socket_js.js"></script>
+						    <script src="js/jquery-2.1.4.min.js"></script>
+						    <script src="js/io_algorithm.js"></script>
+										</div>
+
+
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Services section end -->
+		
